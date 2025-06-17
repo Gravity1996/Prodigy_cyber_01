@@ -17,3 +17,6 @@ This Python program generates a secure, random password based on user preference
 1. Install Python 3 (or use Pydroid 3 on Android).
 2. Save the code as `PRODIGY_CYBER_02.py`.
 3. Run the script using:
+4. Follow the on-screen prompts to generate a password.
+
+## Sample Output:
