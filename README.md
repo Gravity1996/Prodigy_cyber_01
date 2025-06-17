@@ -13,3 +13,10 @@ The Caesar Cipher is one of the oldest known encryption techniques. Each letter 
 4. Choose either 'encrypt' or 'decrypt' to perform the operation.
 
 ## Sample Run
+
+## Files Included
+- `caesar_cipher.py`: The main Python script containing the Caesar Cipher code.
+
+## Author
+Emmanuel Alex Chile  
+PRODIGY Cybersecurity Internship 2025
