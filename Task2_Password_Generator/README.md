@@ -16,16 +16,16 @@ This Python program generates a secure, random password based on user preference
 ## How to Run:
 1. Install Python 3 (or use Pydroid 3 on Android).
 2. Save the code as `PRODIGY_CYBER_02.py`.
-3. Run the script using:
-python PRODIGY_CYBER_02.py
+3. Run the script using:python PRODIGY_CYBER_02.py
 4. Follow the on-screen prompts to generate a password.
 
 ## Sample Output:
-
-
+```
 Enter desired password length: 12
 Include uppercase letters? (y/yes/n/no): yes
 Include lowercase letters? (y/yes/n/no): yes
 Include numbers? (y/yes/n/no): yes
 Include special characters? (y/yes/n/no): no
 Generated Password: AbCdefGhiJKL
+```
+
