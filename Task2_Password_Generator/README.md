@@ -1,39 +1,21 @@
-import random
-import string
+# Task 2: Password Generator
 
-def generate_password(length, use_upper, use_lower, use_digits, use_special):
-    characters = ''
-    
-    if use_upper:
-        characters += string.ascii_uppercase
-    if use_lower:
-        characters += string.ascii_lowercase
-    if use_digits:
-        characters += string.digits
-    if use_special:
-        characters += string.punctuation
+## Description
+This Python program generates a secure, random password based on user preferences.
 
-    if not characters:
-        return "You must select at least one character set!"
-    
-    password = ''.join(random.choice(characters) for _ in range(length))
-    return password
+### Features:
+- User can choose:
+  - Password length
+  - Inclusion of uppercase letters
+  - Inclusion of lowercase letters
+  - Inclusion of numbers
+  - Inclusion of special characters
+- Input validation to ensure correct user choices.
+- Password is generated using Python's `random` and `string` modules.
 
-def get_yes_or_no(prompt):
-    response = input(prompt).lower()
-    return response in ['y', 'yes']
+## How to Run:
+1. Install Python 3.
+2. Run the script using:
+3. Follow the on-screen prompts to generate a password.
 
-# User input
-try:
-    length = int(input("Enter desired password length: "))
-    use_upper = get_yes_or_no("Include uppercase letters? (y/yes/n/no): ")
-    use_lower = get_yes_or_no("Include lowercase letters? (y/yes/n/no): ")
-    use_digits = get_yes_or_no("Include numbers? (y/yes/n/no): ")
-    use_special = get_yes_or_no("Include special characters? (y/yes/n/no): ")
-
-    # Generate password
-    password = generate_password(length, use_upper, use_lower, use_digits, use_special)
-    print(f"Generated Password: {password}")
-
-except ValueError:
-    print("Please enter a valid number for password length!")
+## Sample Output:
