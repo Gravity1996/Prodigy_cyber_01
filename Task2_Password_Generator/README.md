@@ -20,3 +20,9 @@ This Python program generates a secure, random password based on user preference
 4. Follow the on-screen prompts to generate a password.
 
 ## Sample Output:
+Enter desired password length: 12
+Include uppercase letters? (y/yes/n/no): yes
+Include lowercase letters? (y/yes/n/no): yes
+Include numbers? (y/yes/n/no): yes
+Include special characters? (y/yes/n/no): no
+Generated Password: AbCdefGhiJKL
