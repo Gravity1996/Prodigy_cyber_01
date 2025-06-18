@@ -1,5 +1,5 @@
 
-# Task 2: Password Generator
+# Task 3: Password Generator
 
 ## Description
 This Python program generates a secure, random password based on user preferences.
