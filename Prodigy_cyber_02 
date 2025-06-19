@@ -1,0 +1,20 @@
+# Image Encryption & Decryption Tool
+**Prodigy Infotech Cybersecurity Internship — Task 2**
+
+## Description
+A simple Python tool to encrypt and decrypt images by manipulating pixel values using a numeric key.
+
+## Features
+- Encrypt RGB images using pixel-wise addition with a user-provided key.
+- Decrypt images using the same key for exact recovery.
+- Console-based interaction.
+- Tested successfully on an Android phone using Pydroid 3.
+
+## Requirements
+- Python 3
+- Pillow
+- NumPy
+- Pydroid 3 (for mobile execution)
+
+## Installation
+Install required libraries:
