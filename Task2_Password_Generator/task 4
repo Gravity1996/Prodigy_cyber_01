@@ -1,0 +1,2 @@
+## Note:
+This code was tested on Android (Pydroid 3). However, due to system restrictions and lack of root privileges on Android devices, raw socket access required for packet sniffing was denied. The code is verified to be logically and syntactically correct.
