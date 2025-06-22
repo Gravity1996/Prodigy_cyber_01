@@ -1,0 +1,8 @@
+from scapy.all import sniff
+
+def process_packet(packet):
+    print("=== New Packet Captured ===")
+    packet.show()  # Detailed view of packet
+    print("==========================")
+
+sniff(prn=process_packet, count=5)
