@@ -1,0 +1,24 @@
+# Prodigy Infotech Cybersecurity Internship - Task 4
+
+## Task: Network Packet Sniffer using Python
+
+### Objective:
+Develop a Python-based network packet sniffer that captures and displays network packets using Scapy.
+
+### Requirements:
+- Python 3
+- Scapy Library (`pip install scapy`)
+- Admin/Root privileges (for full network access)
+
+### How to Run:
+
+1. Install required libraries:
+2. Run the script:
+3. The script will capture and display 10 packets from the network.
+
+### Sample Output:
+== New Packet Captured === Ether / IP / TCP 192.168.0.105:60123 > 172.217.194.101:https S
+
+
+### Notes:
+- For Android (Pydroid 3), functionality may be limited due to system restrictions.
